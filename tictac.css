@@ -1,0 +1,28 @@
+.Intro{
+    text-align: center;
+    font-family: 'CRYSTALRegular';
+    font-weight: normal;
+    font-style: normal;
+ }
+
+.buton {
+    border-radius: 15px 15px 15px 15px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-size: 16px;
+    margin: auto;
+    display: block;
+}
+
+ table{ 
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+ }
+  
+ td{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+  }
+  
