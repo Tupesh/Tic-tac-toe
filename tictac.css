@@ -1,28 +1,30 @@
+body{
+  color: white;
+  background-color: black;
+}
+
 .Intro{
     text-align: center;
     font-family: 'CRYSTALRegular';
     font-weight: normal;
     font-style: normal;
+    color: black;
  }
 
-.buton {
-    border-radius: 15px 15px 15px 15px;
-    background-color: #4CAF50; /* Green */
-    color: white;
-    font-size: 16px;
-    margin: auto;
-    display: block;
-}
 
  table{ 
+  border: 5px black;
+   background-color: grey;
     margin-top: 50px;
     margin-bottom: 50px;
 
  }
   
  td{
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
+    text-align: center;
+    font-size:100px ;
+    border: 5px solid white;
+    height: 150px;
+    width: 150px;
   }
   
