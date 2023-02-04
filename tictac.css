@@ -26,5 +26,30 @@ body{
     border: 5px solid white;
     height: 150px;
     width: 150px;
+    cursor: pointer;
   }
+td:hover{
+  background-color: rgb(214, 142, 142);
+
+}
+#turn:hover{
+  color: grey;
+
+}
+
+.borderR0{
+  border-right: 0;
+}
+  
+.borderL0{
+  border-left: 0;
+}
+  
+.borderT0{
+  border-top: 0;
+}
+  
+.borderB0{
+  border-bottom: 0;
+}
   

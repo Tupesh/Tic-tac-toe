@@ -15,7 +15,7 @@
     
     <div class="Intro jumbotron" >
         <h1>WELCOME TO SIMPLE TIC TAC TOE GAME</h1>
-        <h3>Player 1 take O and Player 2 takes </h3>
+        <span id="turn"><h3>Player 1 take O and Player 2 takes </h3></span>
         <center><button id='b' type="button" class="btn btn-primary btn-lg" name="button" >Restart Game</button></center>
     
     </div>
@@ -23,23 +23,24 @@
     
     <table align="center">
         <tr>
-            <td>O</td>
-            <td></td>
-            <td></td>
+            <td class="borderL0 borderT0">O</td>
+            <td class="borderT0"></td>
+            <td class="borderT0 borderR0"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="borderL0"></td>
+            <td ></td>
+            <td class="borderR0"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="borderB0 borderL0"></td>
+            <td class="borderB0"></td>
+            <td class="borderB0 borderR0"></td>
         </tr>
 
     </table>
     
+
     <script src="tictac.js"></script>
     
 </body>
